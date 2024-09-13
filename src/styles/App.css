@@ -1,0 +1,32 @@
+*{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.app {
+    display: flex; /* Usa flexbox para organizar los elementos */
+    height: 100%; /* Altura total de la ventana del navegador */
+  }
+  .content {
+    flex: 1; /* El contenido principal ocupa todo el espacio restante */
+    display: flex;
+    transition: margin-left 0.1s ease; 
+    width: 15%;/* Espaciado interno del contenido */
+  }
+  .sidebar-open .content {
+    margin-left: 210px; /* Ancho del sidebar cuando está abierto */
+  }
+  
+  /* Estilos para el sidebar cerrado */
+  .sidebar-closed .content {
+    margin-left: 0; /* Sin margen para ocultar el sidebar */
+  }
+  
+  /* Estilos para el contenido principal (main-content) */
+  .main-content {
+    padding: 0px;
+    flex: 1;
+    float: left;
+    width: 100%;
+    /*background-color: aqua;*/
+  }

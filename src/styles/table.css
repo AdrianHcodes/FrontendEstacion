@@ -1,0 +1,144 @@
+*{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.tabla-container {  
+  margin-top: 30px;
+  
+  }
+.tabla-container h1{
+  text-align: left;
+  padding-left: 37px;
+  padding-bottom: 20px;
+}
+  .tabla-usuarios {
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+  }
+  
+  
+  .tabla-usuarios th {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+  }
+  .tabla-usuarios thead th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0; /* Aplica border-radius solo a las esquinas superiores */
+  }
+  
+  
+  .tabla-usuarios td, .tabla-usuarios th {
+    border: 1px solid #e6e2e2;
+    padding: 8px;
+    text-align: left;
+    
+  }
+  .tabla-usuarios tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .tabla-usuarios tr:hover {
+    background-color: #f6eeee;
+  }
+
+  .filtro-input {
+    width: 300px; /* Ajusta el ancho del campo de búsqueda según necesites */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e0dcdc;
+    border-radius: 10px;
+
+  }
+
+  .filtro-container {
+     /* Ajusta la posición vertical según necesites */
+    padding-right: 20px;
+    padding-left: 35px; /* Ajusta la posición horizontal desde el borde derecho */
+    padding-bottom: 20px;
+}
+
+.actions{
+  display: flex;
+}
+  .pagination {
+    margin-top: 20px;
+    align-items:  center;
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+  }
+  
+  .pagination button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination button:focus {
+    outline: none;
+  }
+  
+  .pagination button.active {
+    background-color: #0056b3;
+  }
+  
+  .actions{
+    align-items: center;
+    white-space: nowrap;
+    display: flex;
+    padding: block; 
+    text-align: center; /* Centrar contenido horizontalmente */
+    vertical-align: middle;
+  }
+  
+  .actions button {
+    margin-right: 15px; /* Espaciado entre botones */
+    padding: 8px 12px; /* Espaciado interno de los botones */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding-left: 15px;
+   
+  }
+  
+  .btn-edit {
+    background-color: #28a745; /* Verde */
+    color: #f6f5f5;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-edit:hover,
+  .btn-delete:hover {
+    opacity: 0.6; /* Opacidad al pasar el cursor */
+  }
+
+  .tabla-usuarios th:last-child {
+    width: 115px; /* Ancho fijo para la última columna */
+    min-width: 115px; /* Mínimo ancho para asegurar la fijación */
+    max-width: 115spx; /* Máximo ancho para asegurar la fijación */
+  }
+
+  /* Las otras columnas se ajustan automáticamente */
+  .tabla-usuarios th:not(:last-child) {
+    width: auto; /* Las demás columnas se ajustan automáticamente */
+  }

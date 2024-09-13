@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+}
+.icon{
+    font-size: 1.4rem;
+}
+.navbar {
+    width: 100% - 190px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between; /* Alinear los elementos a los extremos */
+    align-items: center; /* Alinear verticalmente al centro */
+    background-color: rgb(0, 0, 0); /* Color de fondo de la barra de navegación */
+    color: rgb(241, 247, 239); /* Color del texto */
+    font-size: 1.1rem;    
+  }
+  .navbar p{
+    margin:0;
+    font-size: 1.2rem;
+  }
+
+  .navbar-right {
+    display: flex; /* Utilizar flexbox para los elementos a la derecha */
+    align-items: center; /* Alinear verticalmente al centro */
+  }
+  
+  .search-form {
+    /*display: flex; /* Utilizar flexbox para alinear los elementos del formulario */
+    margin-right: 20px;
+   
+  }
+  
+  .search-form input[type="text"] {
+    padding: 7px; /* Ajustes de estilo para el campo de búsqueda */
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 14px; /* Tamaño de fuente del campo de búsqueda */
+    width: 300px; /* Ancho del campo de búsqueda */
+    border: 2px solid #b5acac;  /* Margen derecho entre el campo de búsqueda y el botón */
+    
+  }
+
+.sidebar-toggle {
+    background: none;
+    border: none;
+    color: rgb(242, 240, 240);
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+  
+  .sidebar-toggle:focus {
+    outline: none;
+  }
+  /* Estilos para el perfil del usuario */
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-right: 0px;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+/* Estilos para el botón de asistencia */
+.assist-button {
+  display: flex;
+  align-items: center;
+  background-color: #0f0f0f; /* Ajusta el color según tu diseño */
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.assist-button .icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+.sidebar-toggle .icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.assist-button:hover {
+  background-color: #1151ff; /* Ajusta el color de hover según tu diseño */
+}

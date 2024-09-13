@@ -1,0 +1,115 @@
+*{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+}
+  
+
+.menu{
+    
+    width: 190px;
+    background-color: rgb(235, 113, 6);
+    padding:10px;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: -250px;
+    transition: left 0.3s ease;
+    height: calc(120vh - 50px);
+    border-right: 1px solid #f2f3f7;
+    z-index: 1000;
+   
+}
+.menu.open{
+    left:0;
+}
+
+.imagen{
+    
+    background:rgb(235, 113, 6);
+    padding: 5px;
+    align-items: center;
+    margin-bottom: 20px;    
+    justify-content: center;
+    /*border-bottom: 1px solid #fcfdff;
+    /*border-top: 1px solid #fcfdff;*/
+     
+}
+.logo-imagen {
+    max-width: 75%; 
+    display: block;
+    margin: 0 auto;
+    
+  }
+
+.imagen .icon{
+    font-size: 1.4rem;
+}
+.menu-list{
+    gap: 10px;
+    list-style:none;
+    padding:0;
+    
+}
+.menu-list li{
+    margin-bottom: 15px;
+}
+.menu-list a{
+ color:white;
+ text-decoration: none;
+ /*display: flex;*/
+ align-items: center; 
+}
+
+.menu-list .item {   
+    display:flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: rgb(238, 240, 234);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.menu-list .icon {
+    margin-right: 10px;
+}
+.menu-list .item:hover{
+    background: rgba(201, 201, 197, 0.871);
+    color: rgb(7, 7, 7);
+}
+
+.submenu {
+    list-style-type: none;
+    margin: 0;
+    background-color: #d25203; /* Color de fondo para el submenú */
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    /* Espacio desde el borde izquierdo */
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: rgb(14, 15, 13);
+  }
+  
+  .submenu-item {
+    padding: 5px 20px;
+  }
+  .submenu li{
+    margin-bottom: 5px;
+}
+  
+  .submenu-item a {
+    text-decoration: none;
+    display: block;
+  }
+  
+  .submenu .item:hover{
+    background: rgb(33, 33, 33);
+    color: rgb(244, 238, 238);
+}
+
+

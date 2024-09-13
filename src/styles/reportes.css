@@ -1,0 +1,160 @@
+/* styles.css (o cualquier nombre que prefieras) */
+
+/* Estilos generales */
+*{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .body {
+    font-family: Arial, sans-serif;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #f7f6f6;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #716f6f;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  input[type="date"] {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Contenedor principal */
+  .reports-container {
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .body{
+    padding: 30px;
+  }
+  
+  /* Encabezados */
+  .reports-container h2, .reports-container h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Formulario y tabla */
+  .reports-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .reports-container input[type="date"],
+  .reports-container button {
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .reports-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .reports-container button:hover {
+    background-color: #45a049;
+  }
+
+  
+  .tabla-ventas th {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+  }
+  .tabla-usuarios thead th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0; /* Aplica border-radius solo a las esquinas superiores */
+  }
+
+
+  .tabla-ventas th {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+  }
+  .tabla-ventas thead th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0; /* Aplica border-radius solo a las esquinas superiores */
+  }
+
+
+  
+  /* Tabla de ventas */
+  .tabla-ventas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tabla-ventas th, .tabla-ventas td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tabla-ventas th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Total de ventas */
+  .total-ventas {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .total-ventas strong {
+    font-weight: bold;
+  }
+  

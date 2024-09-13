@@ -1,0 +1,104 @@
+*{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+} 
+.menu-asistencia{
+    padding: 35px;
+    display: flex;
+    width: 90%;
+}
+.tabla-asistencias{
+    width: 100%;
+    padding-left: 35px;
+    padding-top: 30px;
+    border-collapse: collapse;
+}
+.tabla-asistencias table{
+    margin: 10 auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+    padding: 20px;
+    
+  }
+  
+  
+  .tabla-asistencias th {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-top: 20px;
+    
+  }
+  .tabla-asistencias thead th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0; /* Aplica border-radius solo a las esquinas superiores */
+  }
+  
+  
+  .tabla-asistencias td, .tabla-detalle th {
+    border: 1px solid #e6e2e2;
+    padding: 8px;
+    text-align: left;
+    
+  }
+  .tabla-asistencias tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .tabla-asistencias tr:hover {
+    background-color: #f6eeee;
+  }
+
+  .btn-entrada{
+    background-color: green;
+    color: #e6e2e2;
+    width: 296px;
+    font-size: 2.2vh;
+    padding: 14px;
+    border-radius: 10px;
+  }
+  .btn-salida{
+    background-color: red;
+    color: #e6e2e2;
+    width: 296px;
+    padding: 14px;
+    font-size: 2.2vh;
+    border-radius: 10px;
+  }
+  
+  .btn-entrada:hover,
+  .btn-salida:hover {
+    opacity: 0.8;
+  }
+  
+  .botones{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  /************/
+  /* RelojBolivia.css */
+
+.reloj-bolivia {
+    text-align: center;
+    /*margin-top: 20px;*/
+    padding: 5px;
+    background-color: #fffbfb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reloj-bolivia h2 {
+    color: #5e5c5c;
+}
+
+.reloj-bolivia .hora-actual {
+    font-size:35px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.App{
+  display: flex;
+}

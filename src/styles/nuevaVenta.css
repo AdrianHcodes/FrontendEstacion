@@ -1,0 +1,197 @@
+/* styles.css */
+*{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+}
+.new-venta{
+    display: inline-flex;
+    padding: 10px;
+}
+/* Contenedor principal */
+.nueva-venta {
+    width:500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    
+    display: block;
+    gap: px;
+    padding-bottom: 10px;
+}
+
+
+.producto-venta {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 10px;
+}
+
+/* Encabezado */
+.nueva-venta h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+/* Formulario */
+.nueva-venta form {
+    display:block;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Espacio en la parte inferior del formulario */
+    padding: 10px; /* Espaciado interno del formulario (opcional) */
+    /*border: 1px solid #ccc; */
+    
+}
+.producto-venta form {
+    display: flex;
+    padding: 10px;
+    
+}
+
+/* Etiquetas de los inputs */
+.nueva-venta label {
+    font-weight: bold;
+    width: 500px;
+}
+.producto-venta label {
+    font-weight: bold;
+    width: 500px;
+}
+/* Inputs y select */
+.nueva-venta input,
+.nueva-venta select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.producto-venta input,
+.producto-venta select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fffefe;
+    border-radius: 4px;
+}
+
+
+/* Botones */
+.btn-nuevo{
+  padding-top: 10px;
+
+}
+.nueva-venta button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.producto-venta button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nueva-venta button:hover {
+    background-color: #0056b3;
+}
+
+/* Tabla de detalles */
+.tabla-detalle{
+    padding: 50px;
+    width: 100%;
+}
+.tabla-detalle table{
+    margin: 20 auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  
+  .tabla-detalle th {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+  }
+  .tabla-detalle thead th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0; /* Aplica border-radius solo a las esquinas superiores */
+  }
+  
+  
+  .tabla-detalle td, .tabla-detalle th {
+    border: 1px solid #e6e2e2;
+    padding: 8px;
+    text-align: left;
+    
+  }
+  .tabla-detalle tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .tabla-detalle tr:hover {
+    background-color: #f6eeee;
+  }
+
+  .btn-ventas{
+    white-space: nowrap;
+    display: flex;
+    padding: block; 
+    margin-right: 5px; /* Espaciado entre botones */
+    padding-top: 15px;
+    gap: 5px;
+    justify-content: flex-end;
+}
+  .btn-delete{
+    padding: 10px 15px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn-imprimir{
+    padding: 10px 15px;
+    background-color: #f2ff00;
+    color: rgb(7, 7, 7);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn-guardar-venta{
+    padding: 10px 15px;
+    background-color: #047f11;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn-cancelar{
+    padding: 10px 15px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
